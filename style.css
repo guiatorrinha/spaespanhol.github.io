@@ -1,0 +1,39 @@
+#container {
+    background-color: #fff;
+    display: inline-flexbox;
+}
+
+#text {
+    font-size: 18px;
+    border: none;
+    width: 100%;
+}
+
+#text:focus {
+    border: 0;
+    outline: 0;
+    outline:none!important;
+}
+
+#copy {
+    background-color: #a0bf38;
+    border-radius: 8px;
+    font-size: 12px;
+    border: 1px;
+    color: #fff;
+    font-size: 14px;
+    justify-content: center;
+}
+
+#copy:hover {background-color: #3e8e41}
+
+#copy:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+  }
+
+  #text #copy {
+      display: inline-flex;
+      flex-wrap: nowrap;
+  }
